@@ -1,6 +1,6 @@
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
 	border: 0;
-	font: inherit;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -9,6 +9,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 html, body {
 	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .clear {
@@ -29,6 +30,7 @@ p {
 
 .mainDetails {
 	padding: 25px 35px;
+	border-bottom: 2px solid #cf8a05;
 }
 
 #name h1 {
@@ -56,6 +58,15 @@ p {
 	width: 100%;
 	height: auto;
 	border-radius: 50px;
+}
+
+#mainArea section{
+	border-bottom: 1px solid #dedede;
+}
+
+#mainArea section:last-child{
+	border-bottom: 0px;
+
 }
 
 #name {
@@ -106,8 +117,13 @@ section:last-child {
 }
 
 .sectionTitle h1 {
+	color: #cf8a05;
 	font-style: italic;
 	font-size: 1.5em;
+}
+
+#contactDetails li, #contactDetails a{
+	color: #444444;
 }
 
 .sectionContent h2 {
